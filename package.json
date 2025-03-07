@@ -1,0 +1,26 @@
+{
+  "name": "secret-ops",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "secret",
+    "spy",
+    "ops",
+    "operations"
+  ],
+  "homepage": "https://github.com/mykytaabramenko/secret-ops#readme",
+  "bugs": {
+    "url": "https://github.com/mykytaabramenko/secret-ops/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mykytaabramenko/secret-ops.git"
+  },
+  "license": "ISC",
+  "author": "Mykyta Abramenko",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
