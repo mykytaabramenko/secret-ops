@@ -1,0 +1,31 @@
+{
+  "name": "Document Swap",
+  "objective": "Replace or steal important files from a government facility.",
+  "failure": {
+    "message": "Security discovered the forgery, and alarms were triggered. You barely escaped, but your Secrecy Level has dropped significantly. Your superiors are concerned about your competence.",
+    "minMetrics": {
+      "trust": 10,
+      "intelligence": 10,
+      "secrecyLevel": 10,
+      "stability": 10
+    }
+  },
+  "neutral": {
+    "message": "You obtained the documents, but the switch wasn’t perfect. There are traces left behind, and authorities might connect the dots soon. Your Trust Level is stable, but future missions will be harder.",
+    "minMetrics": {
+      "trust": 30,
+      "intelligence": 30,
+      "secrecyLevel": 30,
+      "stability": 30
+    }
+  },
+  "success": {
+    "message": "The swap was seamless. No one suspects a thing, and your Secrecy Level remains intact. You've gained valuable intelligence, strengthening your reputation as a top operative.",
+    "minMetrics": {
+      "trust": 50,
+      "intelligence": 50,
+      "secrecyLevel": 50,
+      "stability": 50
+    }
+  }
+}

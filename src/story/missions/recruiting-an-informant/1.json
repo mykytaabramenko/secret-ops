@@ -1,0 +1,35 @@
+{
+  "question": "You've identified a potential informant. How do you approach them?",
+  "optionList": [
+    {
+      "action": "Offer protection in exchange for information",
+      "consequence": "The informant is interested but unsure of your ability to keep them safe.",
+      "metrics": {
+        "secrecyLevel": 0,
+        "trust": 5,
+        "intelligence": 5,
+        "stability": 0
+      }
+    },
+    {
+      "action": "Bribe them with a large sum of money",
+      "consequence": "They accept the money but might not be trustworthy.",
+      "metrics": {
+        "secrecyLevel": -5,
+        "trust": -5,
+        "intelligence": 10,
+        "stability": 0
+      }
+    },
+    {
+      "action": "Blackmail them with personal secrets",
+      "consequence": "They agree to help but resent you, making them a potential liability.",
+      "metrics": {
+        "secrecyLevel": -10,
+        "trust": -10,
+        "intelligence": 15,
+        "stability": -10
+      }
+    }
+  ]
+}

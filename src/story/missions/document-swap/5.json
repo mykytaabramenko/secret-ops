@@ -1,0 +1,35 @@
+{
+  "question": "You’re at a safe distance. How do you finalize the mission?",
+  "optionList": [
+    {
+      "action": "Burn the forged documents",
+      "consequence": "No traces remain, but you have no leverage.",
+      "metrics": {
+        "secrecyLevel": 10,
+        "trust": 5,
+        "intelligence": 0,
+        "stability": 5
+      }
+    },
+    {
+      "action": "Hand the documents directly to your handler",
+      "consequence": "You gain recognition for your work, but if tracked, your cover might be blown.",
+      "metrics": {
+        "secrecyLevel": -5,
+        "trust": 10,
+        "intelligence": 10,
+        "stability": 0
+      }
+    },
+    {
+      "action": "Sell the data to another party",
+      "consequence": "Big payout, but if discovered, you will be labeled a traitor.",
+      "metrics": {
+        "secrecyLevel": -20,
+        "trust": -15,
+        "intelligence": 15,
+        "stability": -10
+      }
+    }
+  ]
+}

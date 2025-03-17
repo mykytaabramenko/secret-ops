@@ -1,0 +1,29 @@
+{
+  "question": "Security is closing in as you prepare to exit. What’s your escape plan?",
+  "optionList": [
+    {
+      "action": "Exit through a hidden smuggling route",
+      "consequence": "You escape unseen, but it takes longer.",
+      "metrics": {
+        "secrecyLevel": 10,
+        "stability": 5
+      }
+    },
+    {
+      "action": "Hijack a vehicle and drive to the border",
+      "consequence": "A fast escape, but authorities are alerted.",
+      "metrics": {
+        "secrecyLevel": -15,
+        "trust": -5
+      }
+    },
+    {
+      "action": "Blend into a crowd and board a civilian flight",
+      "consequence": "A high-risk escape, but success ensures anonymity.",
+      "metrics": {
+        "secrecyLevel": 5,
+        "stability": -5
+      }
+    }
+  ]
+}

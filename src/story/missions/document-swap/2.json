@@ -1,0 +1,35 @@
+{
+  "question": "You're near the file storage. How do you get inside?",
+  "optionList": [
+    {
+      "action": "Distract the guards",
+      "consequence": "Guards leave, but may return unexpectedly.",
+      "metrics": {
+        "secrecyLevel": -5,
+        "trust": 0,
+        "intelligence": 5,
+        "stability": 0
+      }
+    },
+    {
+      "action": "Steal the key from an employee",
+      "consequence": "You gain access without raising suspicion, but if discovered, it will lead to an investigation.",
+      "metrics": {
+        "secrecyLevel": -10,
+        "trust": -5,
+        "intelligence": 10,
+        "stability": -5
+      }
+    },
+    {
+      "action": "Use special lockpicks",
+      "consequence": "You enter quietly, but it takes longer and increases the risk of being spotted.",
+      "metrics": {
+        "secrecyLevel": -5,
+        "trust": 0,
+        "intelligence": 5,
+        "stability": -5
+      }
+    }
+  ]
+}

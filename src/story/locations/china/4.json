@@ -1,0 +1,30 @@
+{
+  "question": "You locate a secure database containing classified military projects. How do you extract the data?",
+  "optionList": [
+    {
+      "action": "Infiltrate the facility disguised as an employee",
+      "consequence": "You obtain valuable intelligence but risk being identified later.",
+      "metrics": {
+        "secrecyLevel": -10,
+        "intelligence": 15
+      }
+    },
+    {
+      "action": "Remotely hack the system from a safe location",
+      "consequence": "A safe approach, but encrypted data may take time to decrypt.",
+      "metrics": {
+        "intelligence": 10,
+        "secrecyLevel": -5
+      }
+    },
+    {
+      "action": "Use an insider contact to steal the data",
+      "consequence": "You gain full access without risk, but your contact might be compromised later.",
+      "metrics": {
+        "trust": -10,
+        "intelligence": 15,
+        "secrecyLevel": -5
+      }
+    }
+  ]
+}

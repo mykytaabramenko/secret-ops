@@ -1,0 +1,35 @@
+{
+  "question": "An enemy agent suspects your informant. How do you handle it?",
+  "optionList": [
+    {
+      "action": "Relocate the informant to a safe house",
+      "consequence": "They are safe but unavailable for a while.",
+      "metrics": {
+        "secrecyLevel": 10,
+        "trust": 5,
+        "intelligence": 0,
+        "stability": 5
+      }
+    },
+    {
+      "action": "Warn the informant but let them stay in position",
+      "consequence": "They remain useful, but at increased risk.",
+      "metrics": {
+        "secrecyLevel": -5,
+        "trust": 5,
+        "intelligence": 5,
+        "stability": -5
+      }
+    },
+    {
+      "action": "Use them as bait to capture the enemy agent",
+      "consequence": "The trap works, but the informant is shaken and less cooperative.",
+      "metrics": {
+        "secrecyLevel": -15,
+        "trust": -10,
+        "intelligence": 15,
+        "stability": -15
+      }
+    }
+  ]
+}

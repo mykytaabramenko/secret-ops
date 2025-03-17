@@ -21,6 +21,14 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node src/index.js",
+    "start:preserve": "node src/index.js --preserveLogs"
+  },
+  "dependencies": {
+    "keypress": "^0.2.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }

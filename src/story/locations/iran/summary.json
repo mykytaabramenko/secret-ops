@@ -1,0 +1,30 @@
+{
+  "objective": "Gather intelligence on a secret nuclear program in Iran.",
+  "failure": {
+    "message": "Your cover was blown, and you were forced to flee without obtaining any valuable intelligence. The nuclear program continues unchecked.",
+    "minMetrics": {
+      "trust": 10,
+      "intelligence": 10,
+      "secrecyLevel": 10,
+      "stability": 10
+    }
+  },
+  "neutral": {
+    "message": "You managed to gather some intelligence, but the information is incomplete. The program's progress remains uncertain.",
+    "minMetrics": {
+      "trust": 40,
+      "intelligence": 40,
+      "secrecyLevel": 40,
+      "stability": 40
+    }
+  },
+  "success": {
+    "message": "You successfully infiltrated key facilities and uncovered critical details about Iran’s nuclear program. The intelligence gathered will shape future operations.",
+    "minMetrics": {
+      "trust": 60,
+      "intelligence": 60,
+      "secrecyLevel": 60,
+      "stability": 60
+    }
+  }
+}

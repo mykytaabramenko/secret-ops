@@ -1,0 +1,32 @@
+{
+  "question": "Your mission is to infiltrate China's intelligence network. What is your initial approach?",
+  "optionList": [
+    {
+      "action": "Pose as a foreign businessman to gather intel",
+      "consequence": "You gain contacts, but intelligence gathering is slow and limited.",
+      "metrics": {
+        "secrecyLevel": -5,
+        "trust": 5,
+        "intelligence": 5
+      }
+    },
+    {
+      "action": "Work with underground hackers to breach government networks",
+      "consequence": "You acquire valuable intelligence, but your activities risk detection.",
+      "metrics": {
+        "secrecyLevel": -15,
+        "trust": -5,
+        "intelligence": 10
+      }
+    },
+    {
+      "action": "Bribe a low-ranking official for inside information",
+      "consequence": "You gain some insights, but it leaves a paper trail that could expose you later.",
+      "metrics": {
+        "secrecyLevel": -10,
+        "trust": -5,
+        "intelligence": 10
+      }
+    }
+  ]
+}

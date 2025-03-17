@@ -1,0 +1,30 @@
+{
+  "objective": "Identify and neutralize a spy operating within the U.S. government.",
+  "failure": {
+    "message": "The spy has successfully infiltrated the U.S. government and is now in a position to cause significant damage.",
+    "minMetrics": {
+      "trust": 10,
+      "intelligence": 10,
+      "secrecyLevel": 10,
+      "stability": 10
+    }
+  },
+  "neutral": {
+    "message": "The spy has been uncovered but managed to escape. They remain at large.",
+    "minMetrics": {
+      "trust": 40,
+      "intelligence": 40,
+      "secrecyLevel": 40,
+      "stability": 40
+    }
+  },
+  "success": {
+    "message": "The spy has been apprehended and their network dismantled.",
+    "minMetrics": {
+      "trust": 60,
+      "intelligence": 60,
+      "secrecyLevel": 60,
+      "stability": 60
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "question": "You need to escape unnoticed. What do you do?",
+  "optionList": [
+    {
+      "action": "Exit the same way",
+      "consequence": "You leave without raising suspicion, but traces may remain.",
+      "metrics": {
+        "secrecyLevel": 5,
+        "trust": 5,
+        "intelligence": 0,
+        "stability": 0
+      }
+    },
+    {
+      "action": "Use an emergency exit",
+      "consequence": "You escape quickly, but cameras capture your presence.",
+      "metrics": {
+        "secrecyLevel": -15,
+        "trust": -5,
+        "intelligence": 0,
+        "stability": -10
+      }
+    },
+    {
+      "action": "Trigger a fire alarm",
+      "consequence": "Everyone evacuates, creating confusion, but security will investigate.",
+      "metrics": {
+        "secrecyLevel": -10,
+        "trust": -5,
+        "intelligence": 5,
+        "stability": -5
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "question": "A scientist working on the nuclear program is willing to share secrets. How do you handle it?",
+  "optionList": [
+    {
+      "action": "Offer asylum in exchange for intel",
+      "consequence": "The scientist provides valuable data but now depends on your protection.",
+      "metrics": {
+        "trust": 10,
+        "intelligence": 15,
+        "secrecyLevel": -5
+      }
+    },
+    {
+      "action": "Interrogate them and leave them behind",
+      "consequence": "You extract crucial information, but they may leak your involvement.",
+      "metrics": {
+        "intelligence": 10,
+        "secrecyLevel": -10,
+        "stability": -10
+      }
+    },
+    {
+      "action": "Blackmail them into cooperating",
+      "consequence": "You secure their cooperation, but they resent you.",
+      "metrics": {
+        "intelligence": 15,
+        "trust": -10,
+        "secrecyLevel": -5
+      }
+    }
+  ]
+}

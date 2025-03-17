@@ -1,0 +1,31 @@
+{
+  "question": "One of the syndicate’s operatives has been captured by MI6. What is your interrogation strategy?",
+  "optionList": [
+    {
+      "action": "Offer them a deal for protection in exchange for intel",
+      "consequence": "They provide useful information but demand immunity.",
+      "metrics": {
+        "trust": 10,
+        "intelligence": 10,
+        "secrecyLevel": -5
+      }
+    },
+    {
+      "action": "Use psychological pressure to break them",
+      "consequence": "They reveal key details, but the stress might cause inconsistencies.",
+      "metrics": {
+        "intelligence": 10,
+        "stability": -10
+      }
+    },
+    {
+      "action": "Turn them into a double agent",
+      "consequence": "You gain inside access to the syndicate, but their loyalty is uncertain.",
+      "metrics": {
+        "trust": -10,
+        "intelligence": 15,
+        "secrecyLevel": -5
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Recruiting an Informant",
+  "objective": "Persuade a key individual to work for you and provide valuable intelligence.",
+  "failure": {
+    "message": "Your target refused your offer and reported you to the authorities. You were forced to flee, damaging your Trust Level and increasing your Exposure.",
+    "minMetrics": {
+      "trust": 10,
+      "intelligence": 10,
+      "secrecyLevel": 10,
+      "stability": 10
+    }
+  },
+  "neutral": {
+    "message": "The informant agreed to help, but they remain skeptical and unreliable. You gained some intelligence, but their loyalty is questionable.",
+    "minMetrics": {
+      "trust": 30,
+      "intelligence": 30,
+      "secrecyLevel": 30,
+      "stability": 30
+    }
+  },
+  "success": {
+    "message": "The informant has been fully persuaded and is eager to provide high-value intelligence. Your Trust Level has increased, and your network grows stronger.",
+    "minMetrics": {
+      "trust": 50,
+      "intelligence": 50,
+      "secrecyLevel": 50,
+      "stability": 50
+    }
+  }
+}

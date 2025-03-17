@@ -1,0 +1,32 @@
+{
+  "question": "The spy has been uncovered and is making a last move. What do you do?",
+  "optionList": [
+    {
+      "action": "Apprehend them",
+      "consequence": "Risky, but a direct resolution.",
+      "metrics": {
+        "secrecyLevel": 25,
+        "trust": 10,
+        "intelligence": 15
+      }
+    },
+    {
+      "action": "Let them escape and track them",
+      "consequence": "You gain more intel but risk losing them.",
+      "metrics": {
+        "secrecyLevel": 15,
+        "trust": 20,
+        "stability": -10
+      }
+    },
+    {
+      "action": "Frame another suspect",
+      "consequence": "High success chance, but morally questionable.",
+      "metrics": {
+        "secrecyLevel": 10,
+        "trust": -15,
+        "stability": -20
+      }
+    }
+  ]
+}

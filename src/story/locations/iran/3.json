@@ -1,0 +1,30 @@
+{
+  "question": "You discover that the facility is heavily guarded. What is your approach?",
+  "optionList": [
+    {
+      "action": "Sneak in using the maintenance tunnels",
+      "consequence": "You bypass security but risk detection if guards patrol the area.",
+      "metrics": {
+        "secrecyLevel": -10,
+        "intelligence": 10
+      }
+    },
+    {
+      "action": "Stage an external diversion",
+      "consequence": "The distraction works, but your involvement may be suspected.",
+      "metrics": {
+        "secrecyLevel": -15,
+        "trust": -5,
+        "intelligence": 5
+      }
+    },
+    {
+      "action": "Bribe a guard for inside access",
+      "consequence": "You gain safe entry, but if the guard is caught, your cover could be blown.",
+      "metrics": {
+        "trust": -5,
+        "intelligence": 10
+      }
+    }
+  ]
+}

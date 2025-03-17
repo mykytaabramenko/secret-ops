@@ -1,0 +1,35 @@
+{
+  "question": "The informant is hesitant. How do you gain their trust?",
+  "optionList": [
+    {
+      "action": "Share limited classified intel to prove credibility",
+      "consequence": "They trust you more but could betray that information.",
+      "metrics": {
+        "secrecyLevel": -5,
+        "trust": 10,
+        "intelligence": 5,
+        "stability": 0
+      }
+    },
+    {
+      "action": "Arrange a secret meeting with your handler",
+      "consequence": "They feel reassured, but the meeting carries a risk of exposure.",
+      "metrics": {
+        "secrecyLevel": -10,
+        "trust": 5,
+        "intelligence": 5,
+        "stability": 0
+      }
+    },
+    {
+      "action": "Threaten them with exposure if they refuse",
+      "consequence": "They reluctantly agree but might work against you in secret.",
+      "metrics": {
+        "secrecyLevel": -15,
+        "trust": -15,
+        "intelligence": 10,
+        "stability": -10
+      }
+    }
+  ]
+}

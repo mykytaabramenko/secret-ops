@@ -1,0 +1,31 @@
+{
+  "question": "Your contact in Iran hints at a secret underground nuclear facility. How do you proceed?",
+  "optionList": [
+    {
+      "action": "Bribe a government official for access",
+      "consequence": "You obtain key information, but your actions leave a financial trail.",
+      "metrics": {
+        "secrecyLevel": -10,
+        "trust": -5,
+        "intelligence": 10
+      }
+    },
+    {
+      "action": "Infiltrate the facility disguised as a worker",
+      "consequence": "You gather firsthand intelligence but risk getting caught.",
+      "metrics": {
+        "secrecyLevel": -15,
+        "intelligence": 15,
+        "stability": -5
+      }
+    },
+    {
+      "action": "Deploy surveillance drones to monitor the site",
+      "consequence": "Safe approach, but the intel may be incomplete.",
+      "metrics": {
+        "intelligence": 5,
+        "trust": 5
+      }
+    }
+  ]
+}

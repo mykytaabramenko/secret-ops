@@ -6,7 +6,6 @@
 ## 🎮 Features
 - **Branching Storyline** – Every decision shapes the outcome.
 - **Stealth & Espionage** – Hack systems, infiltrate bases, and deceive enemies.
-- **Resource Management** – Use limited tools to complete missions.
 - **Multiple Endings** – Your actions impact the story.
 
 ## 🚀 Getting Started
@@ -43,8 +42,8 @@ secret-ops/
 
 ## 🎯 Roadmap
 ### Version 1.0 (MVP)
-- [ ] Basic game engine
-- [ ] First mission pack
+- [x] Basic game engine
+- [x] First mission pack
 - [ ] UI improvements
 
 

@@ -1,0 +1,31 @@
+{
+  "question": "A leaked classified document suggests an internal mole. What do you do?",
+  "optionList": [
+    {
+      "action": "Report to Internal Affairs",
+      "consequence": "You gain official support but increase exposure.",
+      "metrics": {
+        "secrecyLevel": 5,
+        "trust": 10,
+        "intelligence": 5
+      }
+    },
+    {
+      "action": "Conduct your own covert investigation",
+      "consequence": "You stay under the radar but have limited knowledge.",
+      "metrics": {
+        "trust": -5,
+        "intelligence": 5
+      }
+    },
+    {
+      "action": "Plant false intel to lure the spy",
+      "consequence": "High risk, but may force the mole to act.",
+      "metrics": {
+        "secrecyLevel": 15,
+        "intelligence": 15,
+        "stability": -10
+      }
+    }
+  ]
+}

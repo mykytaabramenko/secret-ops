@@ -1,0 +1,32 @@
+{
+  "question": "The conspiracy runs deeper than expected. What’s your strategy?",
+  "optionList": [
+    {
+      "action": "Inform the agency director",
+      "consequence": "You secure support but lose control of the case.",
+      "metrics": {
+        "secrecyLevel": 10,
+        "trust": 15,
+        "intelligence": 10
+      }
+    },
+    {
+      "action": "Continue working independently",
+      "consequence": "You maintain control but at high risk.",
+      "metrics": {
+        "secrecyLevel": 20,
+        "trust": -10,
+        "intelligence": 15
+      }
+    },
+    {
+      "action": "Leak partial intel to the media",
+      "consequence": "Public pressure forces action, but you expose yourself.",
+      "metrics": {
+        "secrecyLevel": 30,
+        "trust": -10,
+        "stability": -5
+      }
+    }
+  ]
+}
