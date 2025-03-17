@@ -1,0 +1,32 @@
+{
+  "question": "The syndicate is planning a large-scale cyber attack. How do you respond?",
+  "optionList": [
+    {
+      "action": "Coordinate with MI6 to preemptively shut down their network",
+      "consequence": "The attack is prevented, but the criminals know they were compromised.",
+      "metrics": {
+        "secrecyLevel": -10,
+        "trust": 5,
+        "intelligence": 10
+      }
+    },
+    {
+      "action": "Trace their location and plan a raid",
+      "consequence": "You locate their hideout, but the raid is a risky move.",
+      "metrics": {
+        "trust": 5,
+        "secrecyLevel": -15,
+        "intelligence": 10
+      }
+    },
+    {
+      "action": "Let the attack proceed but insert spyware into their system",
+      "consequence": "You gain long-term surveillance, but the public suffers the consequences of the attack.",
+      "metrics": {
+        "secrecyLevel": -5,
+        "trust": -10,
+        "intelligence": 15
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "question": "The mission is coming to an end. How do you ensure long-term loyalty?",
+  "optionList": [
+    {
+      "action": "Offer them official protection and a new identity",
+      "consequence": "They feel secure and become a long-term asset.",
+      "metrics": {
+        "secrecyLevel": 5,
+        "trust": 10,
+        "intelligence": 0,
+        "stability": 5
+      }
+    },
+    {
+      "action": "Give them an escape route but leave them independent",
+      "consequence": "They appreciate the freedom but might disappear someday.",
+      "metrics": {
+        "secrecyLevel": 0,
+        "trust": 5,
+        "intelligence": 5,
+        "stability": 0
+      }
+    },
+    {
+      "action": "Eliminate them to remove all loose ends",
+      "consequence": "No risks remain, but your actions damage your psyche and credibility.",
+      "metrics": {
+        "secrecyLevel": 10,
+        "trust": -20,
+        "intelligence": 10,
+        "stability": -20
+      }
+    }
+  ]
+}

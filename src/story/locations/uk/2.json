@@ -1,0 +1,31 @@
+{
+  "question": "The syndicate is linked to a major financial institution. How do you handle this lead?",
+  "optionList": [
+    {
+      "action": "Follow the money trail to uncover key players",
+      "consequence": "You identify major figures, but they may notice the investigation.",
+      "metrics": {
+        "secrecyLevel": -5,
+        "intelligence": 10
+      }
+    },
+    {
+      "action": "Leak financial transactions to the media",
+      "consequence": "You create public pressure, but the criminals go into hiding.",
+      "metrics": {
+        "trust": 5,
+        "secrecyLevel": -10,
+        "intelligence": 5
+      }
+    },
+    {
+      "action": "Hack the bank’s servers for confidential records",
+      "consequence": "You obtain direct evidence, but British authorities may not approve.",
+      "metrics": {
+        "trust": -5,
+        "secrecyLevel": -15,
+        "intelligence": 15
+      }
+    }
+  ]
+}

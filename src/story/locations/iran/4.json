@@ -1,0 +1,30 @@
+{
+  "question": "Inside the facility, you find critical nuclear research data. What do you do?",
+  "optionList": [
+    {
+      "action": "Copy the data onto an encrypted drive",
+      "consequence": "You obtain valuable intelligence while minimizing risk.",
+      "metrics": {
+        "intelligence": 15,
+        "secrecyLevel": -5
+      }
+    },
+    {
+      "action": "Sabotage the facility before leaving",
+      "consequence": "You disrupt their operations but increase your exposure.",
+      "metrics": {
+        "intelligence": 10,
+        "secrecyLevel": -20,
+        "trust": -5
+      }
+    },
+    {
+      "action": "Steal physical documents and flee",
+      "consequence": "You take original documents but may be pursued.",
+      "metrics": {
+        "intelligence": 15,
+        "secrecyLevel": -10
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "objective": "Infiltrate China’s intelligence network and obtain highly classified military and technological secrets.",
+  "failure": {
+    "message": "You were exposed as a foreign operative and narrowly escaped capture. All gathered intelligence was lost, and your presence has escalated tensions.",
+    "minMetrics": {
+      "trust": 10,
+      "intelligence": 10,
+      "secrecyLevel": 10,
+      "stability": 10
+    }
+  },
+  "neutral": {
+    "message": "You obtained some intelligence, but your activities attracted suspicion. Future operations in China will be significantly more difficult.",
+    "minMetrics": {
+      "trust": 40,
+      "intelligence": 40,
+      "secrecyLevel": 40,
+      "stability": 40
+    }
+  },
+  "success": {
+    "message": "You successfully extracted top-secret military data and escaped undetected. This intelligence will provide a strategic advantage in global affairs.",
+    "minMetrics": {
+      "trust": 70,
+      "intelligence": 70,
+      "secrecyLevel": 70,
+      "stability": 70
+    }
+  }
+}

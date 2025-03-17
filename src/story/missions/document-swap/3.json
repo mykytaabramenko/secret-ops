@@ -1,0 +1,35 @@
+{
+  "question": "You're inside and see the original documents. What do you do?",
+  "optionList": [
+    {
+      "action": "Swap the documents",
+      "consequence": "The swap is seamless. No one suspects a thing.",
+      "metrics": {
+        "secrecyLevel": 5,
+        "trust": 5,
+        "intelligence": 10,
+        "stability": 0
+      }
+    },
+    {
+      "action": "Just steal the documents",
+      "consequence": "The theft is noticed within minutes, triggering alarms.",
+      "metrics": {
+        "secrecyLevel": -20,
+        "trust": -5,
+        "intelligence": 15,
+        "stability": -10
+      }
+    },
+    {
+      "action": "Take photos of the documents",
+      "consequence": "You avoid physical theft, but quality may be poor.",
+      "metrics": {
+        "secrecyLevel": -5,
+        "trust": 0,
+        "intelligence": 5,
+        "stability": -5
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "question": "Authorities are closing in, and you need to escape China undetected. What is your plan?",
+  "optionList": [
+    {
+      "action": "Exit via an underground smuggling network",
+      "consequence": "A slow but discreet escape route.",
+      "metrics": {
+        "secrecyLevel": 10,
+        "stability": 5
+      }
+    },
+    {
+      "action": "Create a fake identity and leave through the airport",
+      "consequence": "A high-risk but effective escape, assuming no red flags are raised.",
+      "metrics": {
+        "secrecyLevel": 5,
+        "trust": -5,
+        "stability": -5
+      }
+    },
+    {
+      "action": "Stage a distraction while sneaking out of the country",
+      "consequence": "Authorities are misled, but their security measures tighten for future operatives.",
+      "metrics": {
+        "secrecyLevel": -5,
+        "intelligence": 5,
+        "stability": -10
+      }
+    }
+  ]
+}

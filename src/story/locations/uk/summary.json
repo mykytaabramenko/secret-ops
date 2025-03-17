@@ -1,0 +1,30 @@
+{
+  "objective": "Work alongside MI6 to dismantle an international cybercrime syndicate operating in the United Kingdom.",
+  "failure": {
+    "message": "The cybercriminals evaded capture and erased all traces of their operations. Your mission was exposed, damaging relations with MI6.",
+    "minMetrics": {
+      "trust": 10,
+      "intelligence": 10,
+      "secrecyLevel": 10,
+      "stability": 10
+    }
+  },
+  "neutral": {
+    "message": "The syndicate was disrupted, but key members escaped. While some intelligence was gained, the operation remains unfinished.",
+    "minMetrics": {
+      "trust": 40,
+      "intelligence": 40,
+      "secrecyLevel": 40,
+      "stability": 40
+    }
+  },
+  "success": {
+    "message": "The cybercriminal network has been completely dismantled, and critical intelligence was secured. Your cooperation with MI6 strengthens future joint operations.",
+    "minMetrics": {
+      "trust": 60,
+      "intelligence": 60,
+      "secrecyLevel": 60,
+      "stability": 60
+    }
+  }
+}

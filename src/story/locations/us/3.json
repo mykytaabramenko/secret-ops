@@ -1,0 +1,31 @@
+{
+  "question": "A high-ranking official is under suspicion. What’s your move?",
+  "optionList": [
+    {
+      "action": "Confront them with evidence",
+      "consequence": "If you're wrong, your cover is blown.",
+      "metrics": {
+        "secrecyLevel": 20,
+        "trust": 5,
+        "intelligence": 10
+      }
+    },
+    {
+      "action": "Plant a tracking device",
+      "consequence": "Safe, but progress is slow.",
+      "metrics": {
+        "secrecyLevel": 10,
+        "intelligence": 15
+      }
+    },
+    {
+      "action": "Spread disinformation",
+      "consequence": "You mislead your enemies, but might confI use your allies.",
+      "metrics": {
+        "secrecyLevel": 5,
+        "trust": -10,
+        "stability": -10
+      }
+    }
+  ]
+}

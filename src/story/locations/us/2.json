@@ -1,0 +1,30 @@
+{
+  "question": "You intercept a suspicious meeting. How do you proceed?",
+  "optionList": [
+    {
+      "action": "Tap the conversation remotely",
+      "consequence": "Safe, but you only get limited information.",
+      "metrics": {
+        "intelligence": 10
+      }
+    },
+    {
+      "action": "Infiltrate the meeting in disguise",
+      "consequence": "High risk, but you obtain full intel.",
+      "metrics": {
+        "secrecyLevel": 15,
+        "intelligence": 15,
+        "stability": -5
+      }
+    },
+    {
+      "action": "Blackmail one of the participants",
+      "consequence": "You gain leverage, but they might betray you later.",
+      "metrics": {
+        "secrecyLevel": 10,
+        "trust": -10,
+        "intelligence": 5
+      }
+    }
+  ]
+}

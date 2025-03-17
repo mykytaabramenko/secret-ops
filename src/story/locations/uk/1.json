@@ -1,0 +1,31 @@
+{
+  "question": "MI6 has requested your assistance in dismantling an international cybercrime syndicate. What is your first move?",
+  "optionList": [
+    {
+      "action": "Infiltrate the syndicate as a hacker-for-hire",
+      "consequence": "You gain insider knowledge but risk blowing your cover.",
+      "metrics": {
+        "secrecyLevel": -10,
+        "trust": 5,
+        "intelligence": 10
+      }
+    },
+    {
+      "action": "Monitor their activities through cyber surveillance",
+      "consequence": "A safe approach, but it takes longer to gather useful intelligence.",
+      "metrics": {
+        "intelligence": 5,
+        "trust": 5
+      }
+    },
+    {
+      "action": "Disrupt their operations with a direct cyber attack",
+      "consequence": "You deal a major blow to the syndicate, but it alerts them to an enemy presence.",
+      "metrics": {
+        "secrecyLevel": -15,
+        "trust": -5,
+        "intelligence": 15
+      }
+    }
+  ]
+}

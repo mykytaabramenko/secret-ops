@@ -1,0 +1,35 @@
+{
+  "question": "You have access to the building where the documents are stored. How do you proceed?",
+  "optionList": [
+    {
+      "action": "Use forged ID badges",
+      "consequence": "You get in unnoticed, but if security checks later, they might raise questions.",
+      "metrics": {
+        "secrecyLevel": -5,
+        "trust": 5,
+        "intelligence": 5,
+        "stability": 0
+      }
+    },
+    {
+      "action": "Hack the security system",
+      "consequence": "You bypass security but leave digital traces behind.",
+      "metrics": {
+        "secrecyLevel": -15,
+        "trust": 0,
+        "intelligence": 10,
+        "stability": -5
+      }
+    },
+    {
+      "action": "Sneak in through ventilation",
+      "consequence": "You avoid detection but take longer, increasing risk.",
+      "metrics": {
+        "secrecyLevel": -10,
+        "trust": 0,
+        "intelligence": 5,
+        "stability": -5
+      }
+    }
+  ]
+}

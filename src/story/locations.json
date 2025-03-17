@@ -1,0 +1,22 @@
+[
+  {
+    "code": "us",
+    "name": "\uD83C\uDDFA\uD83C\uDDF8 United States",
+    "description": "Uncover a deep-cover mole within the government."
+  },
+  {
+    "code": "iran",
+    "name": "\uD83C\uDDEE\uD83C\uDDF7 Iran",
+    "description": "Gather intelligence on a secret nuclear program."
+  },
+  {
+    "code": "china",
+    "name": "\uD83C\uDDE8\uD83C\uDDF3 China",
+    "description": "Infiltrate one of the most secure regimes and obtain military secrets."
+  },
+  {
+    "code": "uk",
+    "name": "\uD83C\uDDEC\uD83C\uDDE7 United Kingdom",
+    "description": "Work alongside MI6 to dismantle a cybercrime syndicate."
+  }
+]

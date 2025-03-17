@@ -1,0 +1,35 @@
+{
+  "question": "The informant offers their first piece of intelligence. What do you do?",
+  "optionList": [
+    {
+      "action": "Verify the information through a secondary source",
+      "consequence": "The intel is confirmed, and your informant gains credibility.",
+      "metrics": {
+        "secrecyLevel": 0,
+        "trust": 10,
+        "intelligence": 10,
+        "stability": 0
+      }
+    },
+    {
+      "action": "Act immediately on their information",
+      "consequence": "The intel is useful, but your informant remains untested.",
+      "metrics": {
+        "secrecyLevel": -5,
+        "trust": 5,
+        "intelligence": 10,
+        "stability": 0
+      }
+    },
+    {
+      "action": "Test their loyalty by feeding them false information",
+      "consequence": "They pass the test, but your methods make them uneasy.",
+      "metrics": {
+        "secrecyLevel": -10,
+        "trust": -5,
+        "intelligence": 5,
+        "stability": -5
+      }
+    }
+  ]
+}

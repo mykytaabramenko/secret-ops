@@ -1,0 +1,32 @@
+{
+  "question": "The government has intensified surveillance on foreign agents. What is your next step?",
+  "optionList": [
+    {
+      "action": "Lay low and wait for tensions to ease",
+      "consequence": "You remain undetected, but intelligence gathering slows significantly.",
+      "metrics": {
+        "secrecyLevel": 5,
+        "stability": 5,
+        "intelligence": -5
+      }
+    },
+    {
+      "action": "Use counter-surveillance tactics to mislead authorities",
+      "consequence": "Your deception works, but it takes effort and increases stress.",
+      "metrics": {
+        "secrecyLevel": -5,
+        "intelligence": 5,
+        "stability": -10
+      }
+    },
+    {
+      "action": "Hack into the surveillance network to erase your digital footprint",
+      "consequence": "You remove traces of your activities, but the breach may be noticed.",
+      "metrics": {
+        "secrecyLevel": -10,
+        "intelligence": 10,
+        "trust": -5
+      }
+    }
+  ]
+}

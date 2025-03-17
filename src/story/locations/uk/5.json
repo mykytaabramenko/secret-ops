@@ -1,0 +1,30 @@
+{
+  "question": "The final showdown is near. The syndicate’s leader has gone into hiding. What’s your approach?",
+  "optionList": [
+    {
+      "action": "Track them down using intelligence gathered so far",
+      "consequence": "You locate them, but the operation is time-sensitive.",
+      "metrics": {
+        "intelligence": 10,
+        "secrecyLevel": -5
+      }
+    },
+    {
+      "action": "Bait them out by setting up a fake deal",
+      "consequence": "They take the bait, but they come prepared for a trap.",
+      "metrics": {
+        "secrecyLevel": -10,
+        "trust": -5,
+        "intelligence": 15
+      }
+    },
+    {
+      "action": "Leak their identity to authorities and let MI6 handle the rest",
+      "consequence": "You stay out of direct danger, but they may escape or go underground.",
+      "metrics": {
+        "trust": 10,
+        "secrecyLevel": 5
+      }
+    }
+  ]
+}
